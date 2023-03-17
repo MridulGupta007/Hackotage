@@ -7,7 +7,11 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        primary: 'var(--font-montserrat)'
+      }
+    },
   },
   plugins: [],
 }
